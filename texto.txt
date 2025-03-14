@@ -13,3 +13,16 @@ ENTRAR EM UMA BRANCH = git checkout nome-branch
 MESCLAR BRANCHES
 git checkout master ou main
 git merge nome-branch
+
+RESOLVENDO CONFLITOS
+Ao alterar um mesmo arquivo no mesmo trecho (linhas) de código, por commits diferentes ou braches deferentes, 
+um conflito é detectado.
+Isso ocorre poque o git controla para você todas as alterações de código que foram realizadas e mostra o 
+conflito para que você decida o que fazer
+
+no vscode aparecem algumas opções
+Accept Incoming change = aceita a versão de código que está vindo do outro branch, descartando a versão do 
+branch atual
+
+compare changes = abre uma comparação lado a lado para que você possa analisar as diferenças antes de decidir 
+qual alteração aceitar
